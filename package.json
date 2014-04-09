@@ -2,7 +2,7 @@
   "name": "lhc",
   "version": "0.0.1",
   "dependencies": {
-    "publisssh": "*",
-    "zooniverse-readymade": "*"
+    "publisssh": "~0.2.4",
+    "zooniverse-readymade": "~0.0.11"
   }
 }
