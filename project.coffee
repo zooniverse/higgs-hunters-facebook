@@ -49,19 +49,19 @@ module.exports =
       type: 'drawing'
       question: 'Pick one'
       choices: [{
-        value: 'point'
+        type: 'point'
         label: 'Fork'
         color: 'cyan'
       }, {
-        value: 'point'
+        type: 'point'
         label: 'Kink'
         color: 'magenta'
       }, {
-        value: 'point'
+        type: 'point'
         label: 'Type 3'
         color: 'yellow'
       }, {
-        value: 'point'
+        type: 'point'
         label: 'Other'
         color: 'white'
       }]
