@@ -4,5 +4,8 @@
   "dependencies": {
     "publisssh": "~0.2.4",
     "zooniverse-readymade": "~0.0.11"
+  },
+  "scripts": {
+    "start": "zooniverse-readymade serve --port 3050"
   }
 }
