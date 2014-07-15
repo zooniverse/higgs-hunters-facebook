@@ -8,17 +8,31 @@ module.exports =
   description: 'This is a brief but slightly more detailed project description.'
 
   pages: [{
-    'About': '''
-      <h1>All about the project</h1>
-      <p>This is where we\'ll go into detail.</p>
-      <hr />
-      <h2>Lorem ipsum dolor sir amet.</h2>
-      <p>Break it into sections, add pictures, whatever.</p>
+    'Science': [{
+      'Introduction': '''
+        <h1>All about the project</h1>
+        <p>This is where we\'ll go into detail.</p>
+        <hr />
+        <h2>Lorem ipsum dolor sir amet.</h2>
+        <p>Break it into sections, add pictures, whatever.</p>
     '''
-  }, {
-    'Another page': '''
-      <p>Any additional pages you'd like can be added here.</p>
-    '''
+    }, {
+      'Particle physics': '''
+        <p>And this is a page about particle physics.</p>
+      '''
+    }, {
+      'Higgs boson': '''
+        <p>And this is a page about the higgs.</p>
+      '''
+    }, {
+      'LHC/ATLAS': '''
+        <p>And this is a page about the LHC and ATLAS.</p>
+      '''
+    }, {
+      'How you can help': '''
+        <p>And this is a page about how you can help.</p>
+      '''
+    }]
   }]
 
   organizations: [{
@@ -67,4 +81,3 @@ module.exports =
       }]
 
   firstTask: 'pickOne'
-
