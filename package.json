@@ -6,6 +6,6 @@
     "zooniverse-readymade": "~0.0.11"
   },
   "scripts": {
-    "start": "zooniverse-readymade serve --port 3050"
+    "start": "zooniverse-readymade serve --port 3050 --project ./project.coffee --js overrides.coffee --css ./project.styl"
   }
 }

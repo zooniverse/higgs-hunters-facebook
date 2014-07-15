@@ -1,0 +1,1 @@
+require './choose-random-image'
