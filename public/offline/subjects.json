@@ -1,14 +1,45 @@
 [{
   "id": "PLACEHOLDER_SUBJECT_ID",
   "zooniverse_id": "PLACEHOLDER_SUBJECT_ZOONIVERSE_ID",
-  "location": {"standard": "./offline/JiveXML_110177000_00409-YX-2014-01-24-11-35-07.png"}
-},{
+  "location": {
+    "standard": [
+      "./offline/atlantisRZ_206368_18294310.png",
+      "./offline/atlantisRZzoom_206368_18294310.png",
+      "./offline/atlantisXY_206368_18294310.png",
+      "./offline/atlantisXYzoom_206368_18294310.png"
+    ]
+  }
+}, {
   "id": "PLACEHOLDER_SUBJECT_ID",
   "zooniverse_id": "PLACEHOLDER_SUBJECT_ZOONIVERSE_ID",
-  "location": {"standard": "./offline/JiveXML_110177000_00411-YX-2014-01-24-11-37-29.png"}
-},{
+  "location": {
+    "standard": [
+      "./offline/atlantisRZ_206368_19498234.png",
+      "./offline/atlantisRZzoom_206368_19498234.png",
+      "./offline/atlantisXY_206368_19498234.png",
+      "./offline/atlantisXYzoom_206368_19498234.png"
+    ]
+  }
+}, {
   "id": "PLACEHOLDER_SUBJECT_ID",
   "zooniverse_id": "PLACEHOLDER_SUBJECT_ZOONIVERSE_ID",
-  "location": {"standard": "./offline/JiveXML_110177000_00985-YX-2014-01-24-11-47-05.png"}
+  "location": {
+    "standard": [
+      "./offline/atlantisRZ_206573_11005582.png",
+      "./offline/atlantisRZzoom_206573_11005582.png",
+      "./offline/atlantisXY_206573_11005582.png",
+      "./offline/atlantisXYzoom_206573_11005582.png"
+    ]
+  }
+}, {
+  "id": "PLACEHOLDER_SUBJECT_ID",
+  "zooniverse_id": "PLACEHOLDER_SUBJECT_ZOONIVERSE_ID",
+  "location": {
+    "standard": [
+      "./offline/atlantisRZ_206573_11860399.png",
+      "./offline/atlantisRZzoom_206573_11860399.png",
+      "./offline/atlantisXY_206573_11860399.png",
+      "./offline/atlantisXYzoom_206573_11860399.png"
+    ]
+  }
 }]
-
