@@ -2,8 +2,7 @@ module.exports =
   id: 'project_id'
   background: 'atlas.jpg'
 
-  producer: 'LHC'
-  title: 'Weird Physics'
+  title: 'Higgs Hunters'
   summary: 'A catchy phrase summing up the project'
   description: 'This is a brief but slightly more detailed project description.'
 
