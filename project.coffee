@@ -1,5 +1,5 @@
 module.exports =
-  id: 'project_id'
+  id: 'higgs_hunter'
   background: 'atlas.jpg'
 
   title: 'Higgs Hunters'
