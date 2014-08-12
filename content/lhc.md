@@ -8,5 +8,7 @@ When two beams of particles collide at extremely high energies, new particles ca
 
 If we see an **off-centre vertex**, it tells us that an invisible particle, originally created at the centre, has decayed into other particles that the detector can see. This could be a sign of an exotic Higgs decay!
 
-[[OFF-CENTRE VERTEX IMAGE]]
-The ATLAS particle detector with an off-centre vertex
+<figure>
+  ![Off-centre vertex](./off-center-vertex.jpg)
+  <figcaption>The ATLAS particle detector with an off-centre vertex</figcaption>
+</figure>

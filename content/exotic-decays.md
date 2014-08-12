@@ -1,8 +1,9 @@
 ## Exotic decays
 
-[[HIGGS DECAY IMAGE]]
-
-An exotic Higgs decay producing two off-centre vertices
+<figure>
+  ![Higgs decay](./higgs-decay.png)
+  <figcaption>An exotic Higgs decay producing two off-centre vertices</figcaption>
+</figure>
 
 The Higgs boson is unstable and decays only 10-22 s (0.0000000000000000000001 seconds) after it is created. Some decays are to particles we already know about, but it has been suggested that it also could decay to new particles that have not been observed until now. Such particles have never been seen in nature to date.
 
