@@ -1,6 +1,6 @@
 ## How you can help
 
-[[WHY WE NEED YOUR HELP VIDEO]]
+<iframe src="//player.vimeo.com/video/102828576" width="500" height="281" frameborder="0" class="video-embed" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Particle colliders produce a huge amount of data – so large in fact that the world-wide web was invented at CERN so scientists could share the data with each other to handle it. CERN now has a global computing grid of 170 computing centres in 40 countries trawling through the data, but computers are far from perfect. Unlike the human brain, which is naturally curious and excellent at pattern recognition, computer programs can only find what they have been taught how to find.
 
