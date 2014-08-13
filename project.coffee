@@ -3,8 +3,8 @@ module.exports =
   background: 'atlas.jpg'
 
   title: 'Higgs Hunters'
-  summary: 'A catchy phrase summing up the project'
-  description: 'This is a brief but slightly more detailed project description.'
+  summary: 'Uncover the building blocks of the universe'
+  description: 'Help search for unknown exotic particles in the LHC data.'
 
   pages: [{
     'Science': [
