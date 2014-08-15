@@ -88,3 +88,5 @@ module.exports =
       label: 'Not again: lorem ipsum dolor sit amet.'
     }]
   }]
+
+  tutorialSteps: require './tutorial-steps'
