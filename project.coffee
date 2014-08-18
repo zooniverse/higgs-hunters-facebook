@@ -67,26 +67,6 @@ module.exports =
 
   firstTask: 'pickOne'
 
-  examples: [{
-    label: 'What we\'re looking for'
-    content: 'Lorem ipsum, this is content.'
-    figures: [{
-      image: '//placehold.it/128.png'
-      label: 'Lorem ipsum dolor sit amet.'
-    }, {
-      image: '//placehold.it/256.png'
-      label: 'Again: lorem ipsum dolor sit amet.'
-    }]
-  }, {
-    label: 'What we\'re <em>not</em> looking for'
-    content: 'Lorem ipsum, this is content too.'
-    figures: [{
-      image: '//placehold.it/128.png'
-      label: 'Nope! Lorem ipsum dolor sit amet.'
-    }, {
-      image: '//placehold.it/256.png'
-      label: 'Not again: lorem ipsum dolor sit amet.'
-    }]
-  }]
+  examples: require './field-guide'
 
   tutorialSteps: require './tutorial-steps'
