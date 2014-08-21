@@ -7,3 +7,7 @@ Particle colliders produce a huge amount of data – so large in fact that the w
 The Zooniverse has a rich history of making new discoveries that computers had completely missed (some older members will recall the excitement surrounding ‘Hanny’s Voorwerp’ found by a citizen scientist working on the Galaxy Zoo project). In this spirit, we need your help to look for the weird and wonderful secrets hiding in the LHC data. In doing so, you will also be teaching our computers how to better spot exotic particle events, speeding up the process of future scientific discoveries!
 
 With **your** help, we can collectively improve our understanding of the universe. [The next new discovery is waiting to be found!](#/classify)
+
+<nav class="sub-pages">
+  [← Exotic decays](#/science/exotic-decays)
+</nav>

@@ -12,3 +12,7 @@ If we see an **off-centre vertex**, it tells us that an invisible particle, orig
   ![Off-centre vertex](./off-center-vertex.jpg)
   <figcaption>The ATLAS particle detector with an off-centre vertex</figcaption>
 </figure>
+
+<nav class="sub-pages">
+  [← Particle physics](#/science/particle-physics) | [Exotic decays →](#/science/exotic-decays)
+</nav>
