@@ -1,22 +1,23 @@
 $ = window.jQuery
 project = require 'zooniverse-readymade/current-project'
 classifyPage = project.classifyPages[0]
+{subjectViewer} = classifyPage
 
-classifyPage.subjectViewer.frameControls.hide()
+subjectViewer.frameControls.hide()
 
 hide = ->
-  classifyPage.subjectViewer.markingSurface.el.style.opacity = 0
+  subjectViewer.markingSurface.el.style.visibility = 'hidden'
 
 show = ->
-  classifyPage.subjectViewer.markingSurface.el.style.opacity = ''
+  setTimeout (subjectViewer.markingSurface.el.style.visibility = ''), 250
 
-classifyPage.on classifyPage.CREATE_CLASSIFICATION, hide
+classifyPage.on classifyPage.CREATE_CLASSIFICATION, ->
+  hide()
 
-classifyPage.on classifyPage.LOAD_SUBJECT, (e, subject) ->
-  randomIndex = Math.floor Math.random() * subject.location.standard.length
-  classifyPage.subjectViewer.goTo randomIndex
-  classifyPage.classification.set 'image_index', randomIndex
-  classifyPage.classification.set 'image_src', subject.location.standard[randomIndex]
+  classifyPage.one classifyPage.LOAD_SUBJECT, (e, subject) ->
+    randomIndex = Math.floor Math.random() * subject.location.standard.length
+    classifyPage.classification.set 'image_index', randomIndex
+    classifyPage.classification.set 'image_src', subject.location.standard[randomIndex]
 
-  # No idea why the image doesn't change immediately.
-  setTimeout show, 500
+    subjectViewer.el.one 'change-frame', show
+    subjectViewer.goTo randomIndex
