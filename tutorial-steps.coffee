@@ -21,7 +21,7 @@ module.exports = [{
 }, {
   image: ''
   content: '''
-    Don't worry if you don't see any verticies, they ca be qite rare! Mark anything you think looks curious or interesting using the “strange” category. After each classification, you’ll be given the chance to discuss anything interesting on Talk.
+    Don't worry if you don't see any verticies, they can be quite rare! Mark anything you think looks curious or interesting using the “strange” category. After each classification, you’ll be given the chance to discuss anything interesting on Talk.
   '''
 }, {
   image: ''
