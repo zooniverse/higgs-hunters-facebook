@@ -6,7 +6,7 @@ module.exports = [{
 }, {
   image: './tutorial/data.jpg'
   content: '''
-    The lines in these images show the paths of charged subatomic particles travelling out from the centre. Sometimes an uncharged (invisble to the detector) particle decays into a shower of charged particles, making new lines appear 'out of thin air' - we call this an 'Off-centre vertex'. 
+    The lines in these images show the paths of charged subatomic particles travelling out from the centre. Sometimes an uncharged (invisible to the detector) particle decays into a shower of charged particles, making new lines appear 'out of thin air' - we call this an 'Off-centre vertex'. 
   '''
 }, {
   image: './tutorial/marking.jpg'
@@ -21,11 +21,11 @@ module.exports = [{
 }, {
   image: ''
   content: '''
-    Don't worry if you don't see any verticies, they can be quite rare! Mark anything you think looks curious or interesting using the “strange” category. After each classification, you’ll be given the chance to discuss anything interesting on Talk.
+    Don't worry if you don't see any vertices, they can be quite rare! Mark anything you think looks curious or interesting using the “strange” category. After each classification, you’ll be given the chance to discuss anything interesting on Talk.
   '''
 }, {
   image: ''
   content: '''
-    Happy hunting! With your help we can better understand the Higgs Boson and look for new exotic physics. Be sure to check out the science pages to find out why we're looking for these verticies.
+    Happy hunting! With your help we can better understand the Higgs Boson and look for new exotic physics. Be sure to check out the science pages to find out why we're looking for these vertices.
   '''
 }]
