@@ -1,6 +1,18 @@
+@keyframes subject-viewer-loading
+  0%
+    background-position: 0 0
+
+  100%
+    background-position: 80px 0
+
 #readymade
   .readymade-subject-viewer
-    background: rgba(black, 1)
+    background: black
+
+    &[data-loading]
+      animation: 750ms subject-viewer-loading linear infinite
+      background: linear-gradient(left top, black 25%, rgba(black, 0.7) 25%, rgba(black, 0.7) 50%, black 50%, black 75%, rgba(black, 0.7) 75%)
+      background-size: 40px 40px
 
   .marking-surface-tool-controls
     max-width: 300px
