@@ -1,3 +1,4 @@
+require './add-analytics'
 require './choose-random-image'
 
 project = require 'zooniverse-readymade/current-project'

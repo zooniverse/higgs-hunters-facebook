@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "publisssh": "^0.2.6",
+    "zooniverse": "^0.7.1",
     "zooniverse-readymade": "^0.3.6-a"
   },
   "scripts": {
