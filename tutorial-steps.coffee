@@ -16,7 +16,7 @@ module.exports = [{
 }, {
   image: ''
   content: '''
-    This is a different view we call ‘slice’. By combining this with the other view, we can work out where the off-centre vertex is in 3d. Don’t worry too much about the colours, they are the computer trying to classify the image. The computer doesn’t always get it right though - one of the reasons we’re doing this is to teach it to find off-centre vertices.
+    This is a different view we call ‘slice’. By combining this with the other view, we can work out where the off-centre vertex is in space. Don’t worry too much about the colours, they are the computer trying to classify the image. The computer doesn’t always get it right though - one of the reasons we’re doing this is to teach it to find off-centre vertices.
     '''
 }, {
   image: ''
@@ -26,6 +26,6 @@ module.exports = [{
 }, {
   image: ''
   content: '''
-    Happy hunting! With your help, we can search for these exotic particles - Physics will never be the same if we find them. Be sure to check out the <a href="#/science">science pages</a> to learn more about particle physics and how off-centre vertices are made.
+    Happy hunting! With your help, we can search for these exotic particles - Physics will never be the same if we find them. Be sure to check out the <strong>science pages</strong> to learn more about particle physics and how off-centre vertices are made.
   '''
 }]
