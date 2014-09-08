@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "publisssh": "^0.2.6",
-    "zooniverse": "~0.3.8",
-    "zooniverse-readymade": "^0.4.1"
+    "zooniverse": "^0.7.1",
+    "zooniverse-readymade": "^0.4.2"
   },
   "scripts": {
     "start": "zooniverse-readymade serve --port 3050 --project ./project.coffee --js overrides.coffee --css ./project.styl",
