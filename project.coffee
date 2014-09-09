@@ -33,6 +33,9 @@ module.exports =
     name: 'Andy Haas'
     description: 'Dr. Andy Haas is an assistant professor of Physics at New York University. He’s worked on the ATLAS experiment since 2004, focusing on searches for new particles involving the Higgs boson and Supersymmetry. He currently leads the ATLAS groups searching for new long-lived particles in Supersymmetric models as well as searches for new Higgs bosons in NMSSM models.'
   }, {
+    name: 'Ming-Yi Jeffrey Mei'
+    description: 'Jeffrey Mei is an undergraduate student from New Zealand and is currently completing his B.Sc in Physics at New York University Abu Dhabi. He has done research in astrophysics, particle physics and geophysics and is trying to decide on a career pathway. He is interested in the role of crowd-sourcing programs like Zooniverse in dealing with Big Data in the future.'
+  }, {
     name: 'Peter Watkins'
     description: 'Peter Watkins is a professor of particle physics at the University of Birmingham. He has worked on many experiments at CERN including the UA1 experiment, which together with UA2, discovered the W and Z bosons. His book ‘Story of the W and Z’ aims at sharing the excitement of this discovery with a general audience. He worked on the OPAL experiment at the large electron positron collider LEP, where many precise measurements of these bosons were made, and has been working on the ATLAS experiment at the LHC for over a decade.  He has worked on the visualisation of particle collisions in many of these experiments and led the Birmingham Particle Physics group for ten years. He is the UK representative on the International Particle Physics Outreach group, has initiated many different Outreach activities and gives many public talks on the LHC.'
   }, {
