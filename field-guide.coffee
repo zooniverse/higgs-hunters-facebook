@@ -19,7 +19,7 @@ module.exports = [{
     label: 'Here’s an off-centre vertex with a total of 8 lines coming out of it. One of the lines seems to go backwards though? Let’s zoom in and take a closer look at it.'
   }, {
     image: './field-guide/backward-zoom.png'
-    label: 'Sometimes the computer gets confused and tries to draw a particle track backwards before it even existed! You can tell the white line isn’t real because the line doesn’t start at the centre where all actual particles are created.'
+    label: 'Sometimes the computer gets confused and tries to draw a particle track backwards before it even existed!'
   }, {
     image: './field-guide/backward-side.png'
     label: 'In the slice view the computer has drawn all 8 lines backwards instead of just the one in the normal and zoom views. Again, you can tell these are fake because they don’t start at the centre. Only count lines moving outwards.'
@@ -48,12 +48,12 @@ module.exports = [{
     label: 'The computer has spotted the vertex with 5 lines and coloured it in, but it looks like it’s completely missed the one with 2 lines! This goes to show how much better the human eye is at this task.'
   }, {
     image: './field-guide/multiple-side.png'
-    label: 'The vertex with 2 lines is a little harder to see in the slice view, as the computer has drawn lines backwards where there were no particles. Again, you can tell these aren’t real because they don’t start in the centre.'
+    label: 'The vertex with 2 lines is a little harder to see in the slice view, as the computer has drawn lines backwards where there were no particles.'
   }]
 }, {
   label: 'Toughies'
   figures: [{
     image: './field-guide/difficult.png'
-    label: 'This image is a real mess; all kinds of things are going on here. If in doubt, select anything that might be a vertex! As well as two possible vertices with 2 branches each, there is the horrible mess that looks like a vertex with 8 lines coming out if you count carefully, but roughly selecting ‘5-10 branches’ will do the trick here. You might also notice a few coloured circular shapes, this is the computer trying to select a vertex and failing horribly! Feel free to ignore those. Finally, occasionally you might see single white lines appearing from nowhere, these are just computer reconstructions so you can ignore these too.'
+    label: 'This image is a real mess; all kinds of things are going on here. If in doubt, select anything that might be a vertex! As well as two possible vertices with 2 branches each, there is the horrible mess that looks like a vertex with 8 lines coming out if you count carefully, but roughly selecting ‘5-10 branches’ will do the trick here. You might also notice a few coloured circular shapes, this is the computer trying to select a vertex and failing horribly! Feel free to ignore those. Finally, occasionally you might see single white lines appearing from nowhere, you can ignore these too.'
   }]
 }]

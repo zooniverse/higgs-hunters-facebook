@@ -21,7 +21,7 @@ module.exports = [{
 }, {
   image: './tutorial/5.jpg'
   content: '''
-    Below the main image is a ‘field guide’ with plenty of examples to help you. Mark anything you think looks curious or interesting using the “strange” category. After each classification, you’ll be given the chance to discuss anything interesting on Talk.
+    Below each main image is a ‘field guide’ with plenty of examples to help you. Mark anything you think looks curious or interesting using the “strange” category. After each classification, you’ll be given the chance to discuss anything interesting on Talk.
   '''
 }, {
   image: './tutorial/6.jpg'
