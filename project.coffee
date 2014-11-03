@@ -37,6 +37,14 @@ module.exports =
       They continue to be operated by Oxford graduate students based at CERN.
     '''
   }, {
+    name: 'New York University'
+    url: ['http://www.nyu.edu/', 'https://www.facebook.com/NYU', 'https://twitter.com/nyuniversity']
+    description: '''
+      NYU is a university in and of the city and in and of the world.
+      Based in the heart of Greenwich Village with facilities located throughout Manhattan and Brooklyn, the traditional boundaries of the classroom are limitless,
+      providing students and faculty with the unique opportunity to learn, teach, and grow in the world’s most dynamic city.
+    '''
+  }, {
     name: 'Zooniverse'
     url: ['https://www.zooniverse.org/', 'https://www.facebook.com/therealzooniverse', 'https://twitter.com/the_zooniverse', 'https://plus.google.com/+ZooniverseOrgReal', 'https://github.com/zooniverse']
     description: '''
