@@ -9,7 +9,7 @@ hide = ->
   subjectViewer.markingSurface.el.style.visibility = 'hidden'
 
 show = ->
-  setTimeout (subjectViewer.markingSurface.el.style.visibility = ''), 250
+  setTimeout (-> subjectViewer.markingSurface.el.style.visibility = ''), 250
 
 classifyPage.on classifyPage.CREATE_CLASSIFICATION, ->
   hide()
