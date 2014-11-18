@@ -10,6 +10,7 @@
     "start": "zooniverse-readymade serve --port 3050 --project ./project.coffee --js overrides.coffee --css ./project.styl",
     "build": "zooniverse-readymade build --output ./build --project ./project.coffee --js overrides.coffee --css ./project.styl",
     "demo": "npm run build && publisssh ./build demo.zooniverse.org/lhc && rm -rf ./build",
-    "beta": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org/beta && rm -rf ./build"
+    "beta": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org/beta && rm -rf ./build",
+    "deploy": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org && rm -rf ./build"
   }
 }
