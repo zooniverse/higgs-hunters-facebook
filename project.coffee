@@ -16,6 +16,14 @@ module.exports =
     ]
   }]
 
+  externalLinks:
+    Talk: 'http://talk.higgshunters.org/'
+    Blog: 'http://blog.higgshunters.org/'
+    '<i class="fa fa-twitter fa-lg"></i>': 'https://twitter.com/higgshunters'
+    '<i class="fa fa-facebook-square fa-lg"></i>': 'https://www.facebook.com/pages/Higgs-Hunters/1436737436604742'
+    '<i class="fa fa-google-plus fa-lg"></i>': 'https://plus.google.com/103232532872685952674/posts'
+
+
   organizations: [{
     name: 'ATLAS'
     url: ['http://www.atlas.ch/', 'https://www.facebook.com/ATLASexperiment', 'https://twitter.com/ATLASexperiment']
