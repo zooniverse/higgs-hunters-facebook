@@ -16,7 +16,6 @@ classifyPage.on classifyPage.CREATE_CLASSIFICATION, ->
 
   classifyPage.one classifyPage.LOAD_SUBJECT, (e, subject) ->
     randomIndex = Math.floor Math.random() * 3
-    console.log 'Random index', randomIndex
 
     classifyPage.classification.set 'image_index', randomIndex
     classifyPage.classification.set 'image_src', subject.location.standard[randomIndex]
