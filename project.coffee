@@ -79,6 +79,7 @@ module.exports =
     description: 'Peter Watkins is a professor of particle physics at the University of Birmingham. He has worked on many experiments at CERN including the UA1 experiment, which together with UA2, discovered the W and Z bosons. His book ‘Story of the W and Z’ aims at sharing the excitement of this discovery with a general audience. He worked on the OPAL experiment at the large electron positron collider LEP, where many precise measurements of these bosons were made, and has been working on the ATLAS experiment at the LHC for over a decade.  He has worked on the visualisation of particle collisions in many of these experiments and led the Birmingham Particle Physics group for ten years. He is the UK representative on the International Particle Physics Outreach group, has initiated many different Outreach activities and gives many public talks on the LHC.'
   }, {
     name: 'Ryan MacDonald'
+    url: ['http://www2.physics.ox.ac.uk/contacts/people/univ3329']
     description: 'Ryan MacDonald is a Physics student at Oxford University, with an intense passion and curiosity about the universe. When not hunting for exotic particles at the LHC, he can be found investigating anomalies in the clouds of Venus or searching for Earth-like planets around other stars. He is also known for volunteering to go on a one-way mission to Mars - in order to advance our scientific knowledge of the planet - which certainly requires dedication!'
   }]
 
