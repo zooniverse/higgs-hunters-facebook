@@ -16,7 +16,7 @@ module.exports = [{
   content: '<strong>NOTE:</strong> These are three views of the same event.'
   figures: [{
     image: './field-guide/backward.png'
-    label: 'Here’s an off-centre vertex with a total of 8 lines coming out of it. One of the lines seems to go backwards though? Let’s zoom in and take a closer look at it.'
+    label: 'Here’s an off-centre vertex with a total of 8 lines coming out of it. Particles always travel outwards, away from the center of the circular images and the center-line of the slice images. One of the lines seems to go backwards though; let’s zoom in and take a closer look at it.'
   }, {
     image: './field-guide/backward-zoom.png'
     label: 'Sometimes the computer gets confused and tries to draw a particle track backwards before it even existed!'
