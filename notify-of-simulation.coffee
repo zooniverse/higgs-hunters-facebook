@@ -23,7 +23,7 @@ simulationMessage = $('''
 ''')
 
 classifyPage.on classifyPage.LOAD_SUBJECT, (e, subject) ->
-  simulated = subject.metadata.data_type is 'not_sim'
+  simulated = subject.metadata.data_type isnt 'not_sim'
   inSimulationGroup = subject.metadata.image_metadata[0].group in SIMULATION_GROUPS
 
   appropriateMessage = if simulated or inSimulationGroup
