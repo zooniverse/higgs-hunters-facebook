@@ -10,7 +10,7 @@ firstViewNotification.hide()
 
 subjectViewer.el.append firstViewNotification
 
-classifyPage.one classifyPage.LOAD_SUBJECT, (e, subject) ->
+classifyPage.on classifyPage.LOAD_SUBJECT, (e, subject) ->
   classificationCount = subject.classification_count ? 0
 
   console?.log 'Classification count', classificationCount
