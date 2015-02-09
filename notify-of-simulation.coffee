@@ -12,6 +12,7 @@ SIMULATION_GROUPS = [
   'hZ_dvdv_50GeV_bb_1mm'
   'hZ_dvdv_50GeV_bb_10mm'
   'hZ_dvdv_50GeV_bb_100mm'
+  'simulated_data'
 ]
 
 defaultMessage = classifyPage.summary.el.children('p').first()
