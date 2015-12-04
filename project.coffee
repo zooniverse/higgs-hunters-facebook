@@ -7,13 +7,29 @@ module.exports =
   description: 'Help search for unknown exotic particles in the LHC data.'
 
   pages: [{
-    'Science': [
-      {'Introduction': require './content/science-intro'}
-      {'Particle physics': require './content/particle-physics'}
-      {'LHC': require './content/lhc'}
-      {'Exotic Decays': require './content/exotic-decays'}
-      {'How you can help': require './content/how-you-can-help'}
-    ]
+    key: 'science'
+    title: 'Science'
+    content: [{
+      key: 'introduction'
+      title: 'Introduction'
+      content: require './content/science-intro'
+    }, {
+      key: 'particle-physics'
+      title: 'Particle physics'
+      content: require './content/particle-physics'
+    }, {
+      key: 'lhc'
+      title: 'LHC'
+      content: require './content/lhc'
+    }, {
+      key: 'exotic-decays'
+      title: 'Exotic Decays'
+      content: require './content/exotic-decays'
+    }, {
+      key: 'how-you-can-help'
+      title: 'How you can help'
+      content: require './content/how-you-can-help'
+    }]
   }]
 
   externalLinks:
