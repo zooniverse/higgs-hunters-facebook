@@ -1,5 +1,5 @@
 [apiHost, apiProxyPath] = if window.location.hostname is 'www.higgshunters.org'
-  ['http://www.higgshunters.org', '/_ouroboros_api/proxy']
+  ['https://www.higgshunters.org', '/_ouroboros_api/proxy']
 else
   [null, null]
 
