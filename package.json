@@ -2,15 +2,15 @@
   "name": "lhc",
   "version": "0.0.1",
   "dependencies": {
-    "publisssh": "^0.2.6",
+    "publisssh": "^1.1.0",
     "zooniverse": "^0.7.1",
     "zooniverse-readymade": "^1.0.0"
   },
   "scripts": {
     "start": "zooniverse-readymade serve --port 3050 --project ./project.coffee --js overrides.coffee --css ./project.styl",
     "build": "zooniverse-readymade build --force --output ./build --project ./project.coffee --js overrides.coffee --css ./project.styl",
-    "demo": "npm run build && publisssh ./build demo.zooniverse.org/lhc && rm -rf ./build",
-    "beta": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org/beta && rm -rf ./build",
-    "deploy": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org && rm -rf ./build"
+    "demo": "npm run build && publisssh ./build demo.zooniverse.org/lhc --force && rm -rf ./build",
+    "beta": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org/beta --force && rm -rf ./build",
+    "deploy": "npm run build && publisssh ./build zooniverse-static/www.higgshunters.org --force && rm -rf ./build"
   }
 }
