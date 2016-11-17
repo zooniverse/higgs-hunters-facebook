@@ -14,10 +14,10 @@ fbEnv = require './facebook-env'
 # App IDs and URLs
 fbConfig =
   'dev':
-    appId: '1004328769693431'
+    appId: '1821327884749590'
     url: 'https://apps.facebook.com/1004328769693431/'
   'production':
-    appId: '917543728371936'
+    appId: '1821327471416298'
     url: 'https://apps.facebook.com/higgs-hunters/'
 
 config = fbConfig[fbEnv]
@@ -30,4 +30,3 @@ window.fbAsyncInit = ->
     xfbml: true
     version: 'v2.7'
   FB.AppEvents.logEvent 'VISITED_APP'
-
