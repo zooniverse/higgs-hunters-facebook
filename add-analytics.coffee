@@ -1,4 +1,4 @@
-GoogleAnalytics = require 'zooniverse/lib/google-analytics'
+GoogleAnalytics = window?.GoogleAnalytics or require 'zooniverse/lib/google-analytics'
 new GoogleAnalytics
   account: 'UA-1224199-60'
   domain: 'www.higgshunters.org'

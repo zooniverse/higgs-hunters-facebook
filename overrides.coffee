@@ -1,3 +1,5 @@
+require './disable-login-prompt'
+require './add-facebook-sharing'
 require './add-analytics'
 require './choose-random-image'
 require './add-loading-spinner'
