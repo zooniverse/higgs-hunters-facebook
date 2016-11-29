@@ -1,5 +1,7 @@
+require './api'
 require './disable-login-prompt'
-require './add-facebook-sharing'
+require './facebook-init'
+require './facebook-classification-summary'
 require './add-analytics'
 require './choose-random-image'
 require './add-loading-spinner'

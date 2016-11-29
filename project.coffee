@@ -1,12 +1,11 @@
-[apiHost, apiProxyPath] = if window.location.hostname is 'www.higgshunters.org'
-  ['https://www.higgshunters.org', '/_ouroboros_api/proxy']
+apiHost = if window.location.hostname isnt 'localhost'
+  'https://api.zooniverse.org'
 else
-  [null, null]
+  'https://dev.zooniverse.org'
 
 module.exports =
   id: 'higgs_hunter'
   apiHost: apiHost
-  apiProxyPath: apiProxyPath
   background: 'atlas.jpg'
 
   title: 'Higgs Hunters'
@@ -38,14 +37,6 @@ module.exports =
       content: require './content/how-you-can-help'
     }]
   }]
-
-  externalLinks:
-    Talk: 'http://talk.higgshunters.org/'
-    Blog: 'http://blog.higgshunters.org/'
-    '<i class="fa fa-twitter fa-lg"></i>': 'https://twitter.com/higgshunters'
-    '<i class="fa fa-facebook-square fa-lg"></i>': 'https://www.facebook.com/pages/Higgs-Hunters/1436737436604742'
-    '<i class="fa fa-google-plus fa-lg"></i>': 'https://plus.google.com/103232532872685952674/posts'
-
 
   organizations: [{
     name: 'ATLAS'
