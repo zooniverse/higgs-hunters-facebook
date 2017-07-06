@@ -1,4 +1,4 @@
-FROM node:0.10
+FROM node:7.7
 
 # Install app dependencies
 RUN mkdir /app
